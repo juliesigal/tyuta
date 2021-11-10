@@ -21,7 +21,7 @@ lst_words = _main_ls[_choice]
 counter = 0
 _currnt_ls = ["_" * len(i) for i in lst_words]
 print('Hello and welcome to the guess words game! Every right guess you get 5 points and wrong guess u lose 1 point. Good luck dear user' )
-print(''.join(_currnt_ls))
+print(' '.join(_currnt_ls))
 
 new_hidden_st = get_string(lst_words)
 new_under_st = get_string(_currnt_ls)
